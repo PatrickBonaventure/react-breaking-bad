@@ -11,8 +11,8 @@ function App() {
       <hr />
       
       <Routes>
-        <Route path="/" element={<MainPage/>} />
-        <Route path="/error" element={<Error/>} />
+        <Route path="/1" element={<MainPage/>} />
+        <Route path="/error1" element={<Error/>} />
       </Routes>
     </div>
   )
