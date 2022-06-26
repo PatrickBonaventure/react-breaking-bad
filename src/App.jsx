@@ -9,6 +9,7 @@ function App() {
     <div className="container my-3">
       <h1 className="text-center">Breaking Bad Wiki</h1>
       <hr />
+      <MainPage/>
       <Routes>
         <Route path="/" element={<MainPage/>} />
         <Route path="/error" element={<Error/>} />
