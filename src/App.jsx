@@ -1,7 +1,7 @@
 import './App.css'
 import {Routes , Route} from "react-router-dom"
 import MainPage from './components/MainPage/MainPage'
-
+import Error from "./components/Error";
 function App() {
   
 
@@ -12,6 +12,7 @@ function App() {
       
       <Routes>
         <Route path="/" element={<MainPage/>} />
+        <Route path="/error" element={<Error/>} />
       </Routes>
     </div>
   )
