@@ -12,7 +12,7 @@ function App() {
       
       <Routes>
         <Route path="/react-breaking-bad" element={<MainPage/>} />
-        <Route path="/error" element={<Error/>} />
+        <Route path="/react-breaking-bad/error" element={<Error/>} />
       </Routes>
     </div>
   )
