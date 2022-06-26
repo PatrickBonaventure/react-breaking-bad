@@ -10,7 +10,7 @@ function App() {
       <h1 className="text-center">Breaking Bad Wiki</h1>
       <hr />
       <Routes>
-        <Route path="/" element={<MainPage/>} />
+        <Route path="/react-breaking-bad" element={<MainPage/>} />
       </Routes>
     </div>
   )
