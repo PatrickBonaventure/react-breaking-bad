@@ -9,11 +9,11 @@ function App() {
     <div className="container my-3">
       <h1 className="text-center">Breaking Bad Wiki</h1>
       <hr />
-      
-      <Routes>
+      <MainPage/>
+      {/* <Routes>
         <Route path="/1" element={<MainPage/>} />
         <Route path="/error1" element={<Error/>} />
-      </Routes>
+      </Routes> */}
     </div>
   )
 }
