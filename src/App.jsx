@@ -11,7 +11,7 @@ function App() {
       <hr />
       
       <Routes>
-        <Route path="/" element={<MainPage/>} />
+        <Route path="/react-breaking-bad" element={<MainPage/>} />
         <Route path="/error" element={<Error/>} />
       </Routes>
     </div>
